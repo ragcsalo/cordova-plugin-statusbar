@@ -66,7 +66,25 @@
         <header-file src="src/ios/CDVStatusBar.h" />
         <source-file src="src/ios/CDVStatusBar.m" />
       
-     
+        <config-file parent="UIViewControllerBasedStatusBarAppearance" target="*-Info.plist">
+          <false/>
+        </config-file>
+
+        <config-file parent="ITSAppUsesNonExemptEncryption" target="*-Info.plist">
+          <false/>
+        </config-file>
+
+        <config-file parent="UIStatusBarHidden" target="*-Info.plist">
+          <true/>
+        </config-file>
+
+        <config-file parent="StatusBarOverlaysWebView" target="*-Info.plist">
+          <false/>
+        </config-file>
+
+        <config-file parent="StatusBarStyle" target="*-Info.plist">
+          <string>default</string>
+        </config-file>     
 
     </platform>
 
