@@ -65,10 +65,6 @@
 
         <header-file src="src/ios/CDVStatusBar.h" />
         <source-file src="src/ios/CDVStatusBar.m" />
-      
-        <config-file parent="ITSAppUsesNonExemptEncryption" target="*-Info.plist">
-          <false/>
-        </config-file>
         
     </platform>
 
